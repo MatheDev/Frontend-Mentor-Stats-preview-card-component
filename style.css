@@ -1,0 +1,80 @@
+/* importing font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+/* reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+
+:root{
+
+  /*Colors */
+
+/*Primary */
+
+--Very-dark-blue: hsl(233, 47%, 7%);
+--Dark-desaturated-blue: hsl(244, 38%, 16%);
+--Soft-violet: hsl(277, 64%, 61%);
+
+/* ### Neutral */
+
+--White: hsl(0, 0%, 100%);
+--Slightly-transparent-white-paragraph: hsla(0, 0%, 100%, 0.75);
+--Slightly-transparent-white: hsla(0, 0%, 100%, 0.6);
+
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+
+  padding: 30px;
+
+  background-color: var(--Very-dark-blue);
+}
+
+img{
+  max-width: 100%;
+ 
+}
+
+
+.card-text{
+  background-color: var(--Dark-desaturated-blue);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px 30px;
+
+  text-align: center;
+}
+
+.card-text h1{
+  color: var(--White);
+  font-size: 1.8rem;
+  margin: 20px 0;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+}
+
+.card-text h1 span{
+  color: var(--Soft-violet);
+}
+
+.card-text p{
+  color: var(--Slightly-transparent-white-paragraph);
+}
+
+.card-text .information p{
+  color:var(--Slightly-transparent-white);
+}

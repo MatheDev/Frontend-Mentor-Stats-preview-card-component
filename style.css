@@ -72,7 +72,7 @@ img{
 .info h2{
   font-size: 1.7rem;
   font-weight: 700;
- 
+  color: ;
   padding: 20px 30px;
   text-align: center;
 }
@@ -87,6 +87,7 @@ h2 span{
   text-align: center;
   letter-spacing: -1px;
   line-height: 1.5;
+  color: var(--Slightly-transparent-white-paragraph)
 }
 
 .container-itens{
@@ -109,6 +110,7 @@ h2 span{
 
 .item p{
   font-weight: bold;
+  color: var(--Slightly-transparent-white);
 }
 
 .attribution{
@@ -154,6 +156,6 @@ h2 span{
   }
   
   .attribution{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 }
